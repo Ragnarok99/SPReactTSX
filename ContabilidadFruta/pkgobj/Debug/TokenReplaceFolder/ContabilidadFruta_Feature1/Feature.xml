@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="17e2a431-bd83-4d61-9e1a-d4fd75d51a48" Scope="Web" Title="ContabilidadFruta Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\index.html" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="src\Elements.xml" />
+    <ElementFile Location="src\index.js" />
+    <ElementFile Location="src\pages\components\Home.jsx" />
+    <ElementFile Location="src\pages\components\AppRouter.jsx" />
+    <ElementManifest Location="dist\Elements.xml" />
+    <ElementFile Location="dist\bundle.js" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="package.json" />
+    <ElementFile Location="webpack.config.js" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="src\Elements.xml" />
+        <ElementManifest Location="dist\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

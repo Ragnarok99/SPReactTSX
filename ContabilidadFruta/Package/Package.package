@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="b24909be-5f42-4366-aeb4-6d2bdf86810a" 
+        solutionId="b24909be-5f42-4366-aeb4-6d2bdf86810a" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ContabilidadFruta"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="17e2a431-bd83-4d61-9e1a-d4fd75d51a48" />
+  </features>
+</package>

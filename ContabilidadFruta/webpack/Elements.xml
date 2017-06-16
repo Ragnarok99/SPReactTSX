@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="webpack">
+    <File Path="webpack\webpack.client.config.js" Url="webpack/webpack.client.config.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
